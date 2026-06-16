@@ -427,41 +427,39 @@ body{background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-fo
   <div class="radar-wrap">
     <div>
       <p style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#9B9B94;font-weight:500;margin-bottom:1rem">Competency map · 역량 지도</p>
-      <svg width="100%" viewBox="0 0 380 320" role="img" aria-label="Competency radar chart">
-        <!-- center: 190,160 — hex radius 90 -->
-        <!-- top:190,70  top-right:268,115  bot-right:268,205  bot:190,250  bot-left:112,205  top-left:112,115 -->
-        <polygon points="190,70 268,115 268,205 190,250 112,205 112,115" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
-        <polygon points="190,97 246,130 246,190 190,223 134,190 134,130" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
-        <polygon points="190,124 224,145 224,175 190,196 156,175 156,145" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
-        <line x1="190" y1="70"  x2="190" y2="250" stroke="#E2DED8" stroke-width="0.5"/>
-        <line x1="112" y1="115" x2="268" y2="205" stroke="#E2DED8" stroke-width="0.5"/>
-        <line x1="268" y1="115" x2="112" y2="205" stroke="#E2DED8" stroke-width="0.5"/>
-        <!-- data polygon ~95% of outer -->
-        <polygon points="190,72 264,118 264,202 190,248 116,202 116,118" fill="#8A9E8A" fill-opacity="0.15" stroke="#8A9E8A" stroke-width="1.5"/>
-        <circle cx="190" cy="72"  r="3.5" fill="#8A9E8A"/>
-        <circle cx="264" cy="118" r="3.5" fill="#8A9E8A"/>
-        <circle cx="264" cy="202" r="3.5" fill="#8A9E8A"/>
-        <circle cx="190" cy="248" r="3.5" fill="#8A9E8A"/>
-        <circle cx="116" cy="202" r="3.5" fill="#8A9E8A"/>
-        <circle cx="116" cy="118" r="3.5" fill="#8A9E8A"/>
-        <!-- TOP: Operations design -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="190" y="52" text-anchor="middle" fill="#1A1A18">Operations</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="190" y="64" text-anchor="middle" fill="#9B9B94">design</text>
-        <!-- TOP-RIGHT: Process automation -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="278" y="110" text-anchor="start" fill="#1A1A18">Process</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="278" y="124" text-anchor="start" fill="#9B9B94">automation</text>
-        <!-- BOT-RIGHT: Cross-functional -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="278" y="200" text-anchor="start" fill="#1A1A18">Cross-func</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="278" y="214" text-anchor="start" fill="#9B9B94">coordination</text>
-        <!-- BOTTOM: Documentation -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="190" y="268" text-anchor="middle" fill="#1A1A18">Documentation</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="190" y="281" text-anchor="middle" fill="#9B9B94">knowledge mgmt</text>
-        <!-- BOT-LEFT: Financial -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="100" y="200" text-anchor="end" fill="#1A1A18">Financial</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="100" y="214" text-anchor="end" fill="#9B9B94">operations</text>
-        <!-- TOP-LEFT: Program -->
-        <text font-family="Inter,sans-serif" font-size="12" font-weight="500" x="100" y="110" text-anchor="end" fill="#1A1A18">Program</text>
-        <text font-family="Inter,sans-serif" font-size="11" x="100" y="124" text-anchor="end" fill="#9B9B94">management</text>
+      <svg width="100%" viewBox="0 0 440 340" role="img" aria-label="Competency radar chart">
+        <!-- center: 220,175 — hex radius 90 -->
+        <polygon points="220,85 298,130 298,220 220,265 142,220 142,130" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
+        <polygon points="220,112 276,145 276,205 220,238 164,205 164,145" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
+        <polygon points="220,139 254,158 254,192 220,211 186,192 186,158" fill="none" stroke="#E2DED8" stroke-width="0.5"/>
+        <line x1="220" y1="85"  x2="220" y2="265" stroke="#E2DED8" stroke-width="0.5"/>
+        <line x1="142" y1="130" x2="298" y2="220" stroke="#E2DED8" stroke-width="0.5"/>
+        <line x1="298" y1="130" x2="142" y2="220" stroke="#E2DED8" stroke-width="0.5"/>
+        <polygon points="220,88 294,133 294,217 220,262 146,217 146,133" fill="#8A9E8A" fill-opacity="0.15" stroke="#8A9E8A" stroke-width="1.5"/>
+        <circle cx="220" cy="88"  r="3.5" fill="#8A9E8A"/>
+        <circle cx="294" cy="133" r="3.5" fill="#8A9E8A"/>
+        <circle cx="294" cy="217" r="3.5" fill="#8A9E8A"/>
+        <circle cx="220" cy="262" r="3.5" fill="#8A9E8A"/>
+        <circle cx="146" cy="217" r="3.5" fill="#8A9E8A"/>
+        <circle cx="146" cy="133" r="3.5" fill="#8A9E8A"/>
+        <!-- TOP -->
+        <text font-family="Inter,sans-serif" font-size="12" x="220" y="66" text-anchor="middle" fill="#6B6B65">Operations</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="220" y="80" text-anchor="middle" fill="#6B6B65">design</text>
+        <!-- TOP-RIGHT -->
+        <text font-family="Inter,sans-serif" font-size="12" x="308" y="126" text-anchor="start" fill="#6B6B65">Process</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="308" y="140" text-anchor="start" fill="#6B6B65">automation</text>
+        <!-- BOT-RIGHT -->
+        <text font-family="Inter,sans-serif" font-size="12" x="308" y="213" text-anchor="start" fill="#6B6B65">Cross-</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="308" y="227" text-anchor="start" fill="#6B6B65">functional</text>
+        <!-- BOTTOM -->
+        <text font-family="Inter,sans-serif" font-size="12" x="220" y="282" text-anchor="middle" fill="#6B6B65">Documentation</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="220" y="296" text-anchor="middle" fill="#6B6B65">knowledge mgmt</text>
+        <!-- BOT-LEFT -->
+        <text font-family="Inter,sans-serif" font-size="12" x="130" y="213" text-anchor="end" fill="#6B6B65">Financial</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="130" y="227" text-anchor="end" fill="#6B6B65">operations</text>
+        <!-- TOP-LEFT -->
+        <text font-family="Inter,sans-serif" font-size="12" x="130" y="126" text-anchor="end" fill="#6B6B65">Program</text>
+        <text font-family="Inter,sans-serif" font-size="12" x="130" y="140" text-anchor="end" fill="#6B6B65">management</text>
       </svg>
     </div>
     <div>
